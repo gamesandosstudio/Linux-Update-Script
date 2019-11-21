@@ -1,0 +1,6 @@
+#!/bin/bash
+#print to user about update starting
+printf "Starting updates.."
+printf "make sure you type your password if prompted to do so."
+printf "make sure you type  y when it says so."
+sudo apt-get update && sudo apt-get upgrade
