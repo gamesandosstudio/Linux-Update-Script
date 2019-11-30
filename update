@@ -1,5 +1,6 @@
 #!/bin/bash
 #print to user about update starting
 printf "Starting updates.."
-sudo apt-get --assume-yes update && sudo apt --assume-yes get upgrade
-printf "Make sure to restart for updates to take effect!
+sudo apt-get --assume-yes update  
+sudo apt --assume-yes get upgrade
+printf "Make sure to restart for updates to take effect!"
