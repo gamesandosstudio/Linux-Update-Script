@@ -1,6 +1,5 @@
 #!/bin/bash
 #print to user about update starting
-printf "Starting updates.."
+printf "Starting updates when you can input into the commandline make sure to reboot for the updates to take effect..."
 sudo apt-get --assume-yes update  
 sudo apt-get --assume-yes upgrade
-printf "Make sure to restart for updates to take effect!"
